@@ -1,0 +1,29 @@
+Pitch in App
+========================================================
+author:Ankit Kundu
+date: 07/08/2016
+autosize: true
+
+First Slide
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- This is a shiny app prepared by Ankit Kundu.
+- The goal of this app is to have  input taken through checkbox and display the relations between the parmeters of the cars.
+
+Code Only Slide
+====================================
+```{r, eval=FALSE}
+summary(mtcars)
+```
+Output Only Slide
+====================================
+```{r, echo=FALSE}
+summary(mtcars)
+```
+Plot Slide
+====================================
+```{r, echo=FALSE}
+plot(mtcars)
+```
